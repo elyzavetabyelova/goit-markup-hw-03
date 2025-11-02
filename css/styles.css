@@ -1,3 +1,8 @@
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -96,7 +101,6 @@ a {
     display: flex;
     align-items: center;
     gap: 40px;
-    margin-left: 156px;
 }
 
 .contacts-link {
